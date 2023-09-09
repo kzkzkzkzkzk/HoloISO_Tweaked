@@ -53,8 +53,8 @@ pacman -Rdd --noconfirm linux-neptune linux-neptune-headers
 
 # Download Archs linux 6.3 kernel
 mkdir -p /etc/holoinstall/post_install/pkgs/Archs_Kernel
-wget https://archive.archlinux.org/packages/l/linux/linux-6.3.9.arch1-1-x86_64.pkg.tar.zst -P /etc/holoinstall/post_install/pkgs/Archs_Kernel
-wget https://archive.archlinux.org/packages/l/linux-headers/linux-headers-6.3.9.arch1-1-x86_64.pkg.tar.zst -P /etc/holoinstall/post_install/pkgs/Archs_Kernel
+wget http://neroreflex.duckdns.org/linux-chimeraos-6.5.1.chos3-1-x86_64.pkg.tar.zst -P /etc/holoinstall/post_install/pkgs/Archs_Kernel
+wget http://neroreflex.duckdns.org/linux-chimeraos-headers-6.5.1.chos3-1-x86_64.pkg.tar.zst -P /etc/holoinstall/post_install/pkgs/Archs_Kernel
 
 # Download Valves linux 6.1 kernel with HDR patch
 mkdir -p /etc/holoinstall/post_install/pkgs/Valves_Kernel
